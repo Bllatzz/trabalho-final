@@ -1,0 +1,92 @@
+.body {
+  margin: 0 auto;
+  width: 75vw;
+  background-image: url("/images/fundo.png");
+}
+
+main {
+
+  background-image: url("/images/pista-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+  svg {
+    fill: green;
+  }
+
+  #topico {
+    font-size: 50pt;
+    position: relative;
+    color: green;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    margin: 20px 0;
+  }
+  #carro {
+    position: relative;
+    left: 1040px;
+    width: 150px;
+  }
+
+  #passo-1 {
+    margin: 0 300px;
+    width: 35vw;
+    font-size: 15pt;
+
+    #topico {
+      text-align: end;
+      left: -150px;
+    }
+  }
+  #icone1 {
+    top: -150px;
+    right: -1300px;
+    position: relative;
+  }
+
+  #passo2{
+    margin: 220px 520px;
+    width: 100vw;
+    font-size: 15pt;
+  }
+  #icone2 {
+    top: -350px;
+    right: -100px;
+    position: relative;
+  }
+
+  #passo3{
+    margin: -30px 300px;
+    width:30vw;
+    font-size: 15pt;
+  }
+  #icone3 {
+    top: -150px;
+    right: -1300px;
+    position: relative;
+  }
+
+  #passo4{
+    margin: 220px 520px;
+    width: 90vw;
+    font-size: 15pt;
+  }
+  #icone4 {
+    top: -350px;
+    right: -100px;
+    position: relative;
+  }
+
+  
+  #passo5{
+    margin: -25px 300px;
+    width:40vw;
+    font-size: 15pt;
+  }
+  #icone5 {
+    top: -150px;
+    right: -1300px;
+    position: relative;
+  }
+}

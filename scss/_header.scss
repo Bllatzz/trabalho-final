@@ -1,0 +1,29 @@
+header {
+  background-image: url("/images/topo.png");
+  height: 350px;
+  width: 100%;
+  h1 {
+    font-size: 80px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    color: green;
+    padding: 20px 0;
+    text-align: center;
+  }
+  p {
+    font-size: 30px;
+    text-align: center;
+  }
+  img {
+    position: absolute;
+    left: 350px;
+    width: 150px;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+  }
+
+  
+
+
+}

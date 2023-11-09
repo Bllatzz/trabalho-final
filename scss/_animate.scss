@@ -1,0 +1,21 @@
+@keyframes rotate{
+    0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(360deg);
+    }
+  }
+  .passos{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition:  all 2s;
+}
+
+.aparecer{
+    filter: blur(0px);
+    transform: translateX(0%);
+    opacity: 1;
+    transition:  all 2s;
+}
