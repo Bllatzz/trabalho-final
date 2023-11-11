@@ -13,5 +13,3 @@ const elements = document.querySelectorAll('.passos')
 
 elements.forEach((element) => myObserver.observe(element))
 
-
-
