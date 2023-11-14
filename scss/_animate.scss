@@ -20,110 +20,137 @@
   transition: all 2s;
 }
 
-#carro {
-  animation: carro-andar 1s 2s ease;
+.pesquise {
+  animation: pesquise 1s ease;
   animation-fill-mode: forwards;
 }
 
-@keyframes carro-andar {
-  //PESQUISE
-  2%{
-    transform: translate(0px, 300px);
-  }
-//PESQUISE
+@keyframes pesquise {
+    //PESQUISE
+    100% {
+      transform: translate(0px, 300px);
+    }
+    //PESQUISE 
+}
 
+.metas {
+  animation: metas 1s ease;
+  animation-fill-mode: forwards;
+}
 
-//METAS
-  4% {
+@keyframes metas{
+
+  //METAS
+  16.6% {
     transform: translate(0px, 460px);
   }
-  8% {
+  33.2% {
     transform: translate(-100px, 550px) rotate(30deg);
   }
-  12% {
+  49.8% {
     transform: translate(-240px, 630px) rotate(90deg);
   }
-  16% {
+  66.4% {
     transform: translate(-450px, 630px) rotate(90deg);
   }
-  20% {
+  83% {
     transform: translate(-670px, 690px) rotate(45deg);
   }
-  24% {
-    transform: translate(-740px, 790px);
+  100% {
+    transform: translate(-740px, 880px);
   }
   //METAS
-
+}
+ 
+.orcamento{
+  animation: orcamento 1s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes orcamento{
   //ORÇAMENTO
-  28% {
+  0% {
     transform: translate(-740px, 900px);
   }
-  32% {
+  16.6% {
     transform: translate(-740px, 1030px) rotate(-30deg);
   }
-  36%{
+  33.2%  {
     transform: translate(-540px, 1150px) rotate(-90deg);
   }
-  40%{
+  49.8% {
     transform: translate(-100px, 1150px) rotate(-90deg);
   }
-  44% {
+  66.4% {
     transform: translate(-100px, 1180px) rotate(-45deg);
   }
-  48% {
-    transform: translate(-20px, 1180px) ;
+  83% {
+    transform: translate(-20px, 1180px);
   }
-  50%{
-    transform: translate(-10px, 1410px) ;
+  100% {
+    transform: translate(-10px, 1410px);
   }
   //ORÇAMENTO
+}
 
+.poupe{
+  animation: poupe 1s ease;
+  animation-fill-mode: forwards;
+}
 
-//POUPE
-  52%{
-    transform: translate(-10px, 1580px) ;
+@keyframes poupe{
+  
+
+  //POUPE
+  0% {
+    transform: translate(-10px, 1580px);
   }
-  56% {
+  16.6%  {
     transform: translate(-100px, 1580px) rotate(30deg);
   }
-  60% {
+  33.2% {
     transform: translate(-260px, 1680px) rotate(90deg);
   }
-  64% {
+  49.8% {
     transform: translate(-540px, 1680px) rotate(90deg);
   }
-  68% {
+  66.4%  {
     transform: translate(-600px, 1630px) rotate(30deg);
   }
- 72%{
-  transform: translate(-740px, 1830px) ;
- }
- 74%{
-  transform:(translate(-745px,1950px))
- }
-//POUPE
+  83% {
+    transform: translate(-740px, 1830px);
+  }
+  100% {
+    transform: (translate(-745px, 1950px));
+  }
+  //POUPE
 
-//DIVIDAS
+}
+.dividas {
+  animation: dividas 1s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes dividas {
+  //DIVIDAS
 
- 76%{
-  transform: translate(-740px, 2030px) ;
- }
-  80% {
+  0% {
+    transform: translate(-740px, 2030px);
+  }
+  20% {
     transform: translate(-600px, 2200px) rotate(-90deg);
   }
 
-  84%{
+  40% {
     transform: translate(-100px, 2200px) rotate(-90deg);
   }
 
-  88% {
+  60% {
     transform: translate(-100px, 2200px) rotate(-30deg);
   }
-  92% {
-    transform: translate(-10px, 2200px) ;
+  80% {
+    transform: translate(-10px, 2200px);
   }
   100% {
-    transform: translate(-10px, 2450px) ;
+    transform: translate(-10px, 2450px);
   }
   //DIVIDAS
 }
